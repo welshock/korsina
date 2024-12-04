@@ -1,0 +1,78 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.card {
+   padding: 15px;
+   margin-bottom: 15px;
+}
+
+.item-title, .item-count {
+   text-align: center;
+}
+
+.logo {
+   width: 100px;
+}
+
+header {
+   text-align: center;
+}
+
+.wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.count-wrap {
+   display: flex;
+   background-color: #ccc;
+   border-radius: 2px;
+}
+
+.item-control, .item-count {
+   width: 35px;
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.item-control {
+   cursor: pointer;
+}
+
+.price {
+   font-weight: bold;
+   text-align: center;
+}
+
+.delivery, .total-price {
+   font-weight: bold;
+   color: blue;
+   font-size: 20px;
+}
+
+.order-input {
+   width: 100%;
+   height: 40px;
+   padding-left: 10px;
+}
+
+.order-btn {
+   margin-top: 15px;
+}
+
+.card-empty {
+   background-color: #ccc;
+   padding: 10px;
+   color: gray;
+}
+
+.none {
+   display: none;
+}
